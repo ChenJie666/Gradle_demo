@@ -30,6 +30,10 @@ allprojects {
         // 私服
         maven {
             url "http://121.41.68.248/repository/maven-central/"
+            credentials {
+                username 'admin'
+                password 'admin'
+            }
         }
         // 本地仓库
         /*
