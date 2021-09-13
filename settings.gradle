@@ -1,2 +1,4 @@
 rootProject.name = 'Groovy'
-
+include 'Mode'
+include 'Repository'
+include 'Web'
